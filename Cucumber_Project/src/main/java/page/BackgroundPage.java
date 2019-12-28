@@ -21,6 +21,7 @@ public class BackgroundPage extends BasePage {
 	WebElement WhiteColor;
 
 	// Methods to interact with the elements
+
 	public void waitForColor() {
 		waitForElement(BlueColor, driver);
 	}
